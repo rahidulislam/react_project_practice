@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import PackingList from "./components/PackingList";
+import PeopleList from "./components/PeopleList";
 import Profile from "./components/Profile1";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <p>Aklilu Lemma was a distinguished Ethiopian scientist who discovered a natural treatment to schistosomiasis.</p>
       </Card>
       <PackingList/>
+      <PeopleList/>
     </>
   );
 }
